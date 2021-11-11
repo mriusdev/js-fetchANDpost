@@ -1,0 +1,29 @@
+.title-block {
+    grid-row: 1 / span 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    max-width: 600px;
+    
+}
+
+.title__heading {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--bg-color);
+}
+
+.title__meta-information {
+    
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: var(--bg-color);
+}
+
+
+.title__meta-information > p:not(:last-child) {
+    margin-bottom: 5px;
+}

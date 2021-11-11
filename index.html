@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="title-block.css">
+    <link rel="stylesheet" href="post-block.css">
+    <link rel="stylesheet" href="contents-block.css">
+    <title>JavaScript Practice - GET and POST methods</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title-block">
+            <div class="title__heading">
+                <p>Data GET & POST with JavaScript</p>
+            </div>
+
+            <div class="title__meta-information">
+                <p>
+                    The below form sends a POST request to the server
+                    and display the sent details inside the console tab.
+                </p>
+
+                <p>
+                And the table shows data that was fetched using the GET method
+                which is the default state of JavaScript's fetch method.
+                </p>
+            </div>
+        </div>
+        <div id="post-block">
+            <form id="post-form">
+                <div>
+                    <div class="post__inputAndlabels">
+                        <label for="userIdField">User Id</label>
+                        <input type="number" id="userIdField" placeholder="1" name="userId" autocomplete="off">
+                    </div>
+                    
+                    <div class="post__inputAndlabels">
+                        <label for="titleField">Title</label>
+                        <input type="text" id="titleField" placeholder="This is a title" name="title" autocomplete="off">
+                    </div>
+                    
+                    <div class="post__inputAndlabels">
+                        <label for="bodyField">Body</label>
+                        <input type="text" id="bodyField" placeholder="This is the body" name="body" autocomplete="off">
+                    </div>
+                    
+                </div>
+                
+
+                <div id="post-submit">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+        <div id="contents-block">
+            <table id="contents-table" class="contents-block__table">
+                <thead id="contents-tableNEW">
+                    <tr>
+                        <th id="userId-heading">UserID</th>
+                        <th id="postId-heading">Id of post</th>
+                        <th id="title-heading">Title</th>
+                        <th id="body-heading">Body</th>
+                    </tr>
+                </thead>
+               
+            </table>
+           
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+<script src="js/post.js"></script>
+</html>

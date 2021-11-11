@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --bg-color: #2C2E43;
+    --bg2-color: #595260;
+    --text-color: #B2B1B9;
+    --contrast-clr: #FFD523;
+    --text-dec-clr: #30638E;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+
+    display: grid;
+    grid-template-rows: auto 300px 1fr;
+
+    row-gap: 10px;
+
+    margin-top: 20px;
+}
+
+
+th {
+    position: sticky;
+    top: 0;
+    height: 50px;
+}
+
+/* Hides input form up and down arrows for various browsers*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
