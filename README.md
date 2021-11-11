@@ -23,5 +23,5 @@ More details on this feature can be found inside the script.js file
 As the files of the website contain CSS, HTML and JavaScript which run without any additional dependencies, you can simply clone the git repo.
 ```
 # Navigate to any folder on your local machine and run
-git clone https://github.com/mriusdev/URLOFTHIS
+git clone https://github.com/mriusdev/js-fetchANDpost.git
 ```
